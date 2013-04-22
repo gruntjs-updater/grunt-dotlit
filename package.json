@@ -1,0 +1,42 @@
+{
+  "name": "grunt-dotlit",
+  "version": "0.1.0",
+  "author": "Doug Martin <doug@zoopdoop.com>",
+  "description": "Grunt plugin for dotlit",
+  "homepage": "https://github.com/zoopdoop/grunt-dotlit",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zoopdoop/grunt-dotlit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zoopdoop/grunt-dotlit/issues",
+    "email" : "doug@zoopdoop.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/zoopdoop/grunt-dotlit/blob/master/LICENSE"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "dotlit": "~0.2.3"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin",
+    "dotlit"
+  ]
+}
